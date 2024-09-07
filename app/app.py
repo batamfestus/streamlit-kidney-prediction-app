@@ -6,8 +6,9 @@ import numpy as np
 
 
 def get_data():
-    data = pd.read_csv(r"C:\Users\UK-PC\Desktop\sample-project-2\KIDNEY CLASSIFICATION-2\df_model.csv")
+    data = pd.read_csv("assets/df_model.csv")
     return data
+
 
 def add_sidebar():
     st.sidebar.header("Clinical Parameters")
@@ -100,8 +101,9 @@ def get_radar_chart(input_data):
 
 
 def add_predictions(input_data):
-    model = pickle.load(open(r"C:\Users\UK-PC\Desktop\sample-project-2\KIDNEY CLASSIFICATION-2\model\model.pkl", 'rb'))
-    scaler = pickle.load(open(r"C:\Users\UK-PC\Desktop\sample-project-2\KIDNEY CLASSIFICATION-2\model\scaler.pkl", 'rb'))
+
+    model = pickle.load(open("model/model.pkl", 'rb'))
+    scaler = pickle.load(open("model/scaler.pkl", 'rb'))
 
     input_array = np.array(list(input_data.values())).reshape(1, -1)
 
