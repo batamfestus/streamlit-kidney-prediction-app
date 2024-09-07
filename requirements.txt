@@ -1,0 +1,6 @@
+imbalanced_learn==0.12.3
+numpy==2.1.1
+pandas==2.2.2
+plotly==5.23.0
+scikit_learn==1.5.1
+streamlit==1.37.0
