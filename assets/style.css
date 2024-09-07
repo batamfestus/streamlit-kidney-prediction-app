@@ -1,0 +1,89 @@
+/* assets/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f2f4f8;
+    /* Dark blue */
+}
+
+.sidebar .sidebar-content {
+    background-color: #F1F5F9;
+    /* Light gray background for sidebar */
+    padding: 20px;
+}
+
+.stButton>button {
+    background-color: #1E3A8A;
+    /* Button background color */
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #3B82F6;
+    /* Lighter blue on hover */
+}
+
+span.diagnosis {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+span.diagnosis.nockd {
+    color: #10B981;
+    /* Green for NO CKD */
+    background-color: #D1FAE5;
+    /* Light green background */
+}
+
+span.diagnosis.yesckd {
+    color: #EF4444;
+    /* Red for YES CKD */
+    background-color: #FECACA;
+    /* Light red background */
+}
+
+header {
+    background-color: #1E3A8A;
+    /* Dark blue background */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.st-emotion-cache-j5r0tf {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #7e9918;
+}
+
+.diagnosis {
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
+.diagnosis.nockd {
+    background-color: green;
+    font-size: 20px;
+}
+
+.diagnosis.yesckd {
+    background-color: #ff4b4b;
+    font-size: 20px;
+}
